@@ -1,3 +1,42 @@
 body{
-    background-color: rgb(196, 196, 192);
+    background-color: seashell;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.span-spinner {
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+
+.avatar {
+    width: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.flag {
+    width: 50px;
+    height: 25px;
+}
+
+.bordered{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
 }
